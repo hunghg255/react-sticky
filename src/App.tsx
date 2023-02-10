@@ -1,5 +1,5 @@
+import Sticky from 'reactjs-s4y';
 import './App.css';
-import Sticky from './components/Sticky';
 
 function App() {
   return (
