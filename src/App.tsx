@@ -1,5 +1,6 @@
 import Sticky from 'reactjs-s4y';
 import './App.css';
+import GitHubCorners from '@uiw/react-github-corners';
 
 function App() {
   return (
@@ -199,6 +200,8 @@ function App() {
         adipisicing elit. Officia ad quo placeat! Dignissimos, quia animi? Nobis nemo ad at
         dignissimos, aperiam quas porro laboriosam numquam ratione et non iure illum.
       </div>
+
+      <GitHubCorners position='right' href='https://github.com/hunghg255/reactjs-s4y' />
     </>
   );
 }
