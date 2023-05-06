@@ -1,6 +1,6 @@
 import Sticky from 'reactjs-s4y';
 import './App.css';
-import GitHubCorners from '@uiw/react-github-corners';
+import GitHubCorners from 'react-gh-corners';
 
 function App() {
   return (
