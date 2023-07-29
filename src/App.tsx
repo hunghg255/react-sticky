@@ -7,7 +7,7 @@ function App() {
     <>
       <div className='App'>
         <div>
-          <Sticky containerSelectorFocus='.App' stickyEnableRange={[768, Infinity]}>
+          <Sticky offsetTop={10} offsetBottom={10}>
             <img
               src='https://images.unsplash.com/photo-1673169128434-90faeb36aaa3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80'
               alt=''
@@ -78,7 +78,7 @@ function App() {
       </div>
       <div className='App App1'>
         <div>
-          <Sticky containerSelectorFocus='.App' stickyEnableRange={[768, Infinity]}>
+          <Sticky offsetTop={10}>
             <img
               src='https://images.unsplash.com/photo-1673169128434-90faeb36aaa3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80'
               alt=''
